@@ -1,4 +1,4 @@
-# Jenkins CI/CD Pipeline with Docker and GitHub
+# CI/CD Pipeline with Docker and GitHub
 
 This repository demonstrates a Jenkins pipeline implementation for achieving continuous integration and continuous deployment (CI/CD) using Docker and GitHub.
 
@@ -139,7 +139,7 @@ To get started with this CI/CD pipeline, follow the steps below:
 3. Configure Jenkins by accessing its web interface.
 4. Create a new Jenkins job and configure it as follows:
    - Set the job type to "Freestyle Project".
-   - Connect it to your GitHub repository (https://github.com/harshartz/Jenkins-project.git) and configure the webhook.
+   - Connect it to your GitHub repository (https://github.com/KunalMasterisHere/CI-CD-Pipeline-with-Docker.git) and configure the webhook.
    - Select "GitHub hook trigger for GITScm polling" as the build trigger.
    - Add an "Execute Shell" build step to the pipeline and use the following code:
    ```bash
